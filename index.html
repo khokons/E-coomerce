@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is E-ommerces project this making by khokon">
+    <title>E_commerces</title>
+
+<!-- Font Awsome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Nav Part Start -->
+<i class="fas fa-bars fa-2x" id="menu-icon"></i>
+<nav id="menu" class="hiden">
+    <ul class="nav-upper flex-space-around">
+
+        <li class="nav__list">
+            <a href="index.html" class="nav__link">Home</a>
+        </li>
+
+        <li class="nav__list">
+            <a href="register.html" class="nav__link">Register</a>
+        </li>
+        <li class="nav__list">
+            <a href="login.html" class="nav__link">Login</a>
+        </li>
+        <li class="nav__list">
+            <a href="logout.html" class="nav__link">Logout</a>
+        </li>
+
+        <li class="nav__list">
+            <a href="contact.html" class="nav__link">Contact</a>
+        </li>
+
+        <li class="nav__list">
+            <a href="profile.html" class="nav__link">
+                <img src="images/profile.jpg" alt="profile_" class="profile_icone">
+            </a>
+        </li>
+    </ul>
+
+
+    <ul class="nav-lower flex-space-around">
+    
+    <li class="nav__list">
+     <a href="index.html" class="nav_brand nav__link">Khokon Express</a>
+    </li>
+    
+     <li class="nav__list">
+        <a href="card.html" class="nav__link"><span>
+<i class="fa-solid fa-cart-shopping"></i></span>Cart 2 Products_$150.5</a></li>
+</ul>
+</nav>
+
+<!-- Nav Part End -->
+
+<!-- Header_part_start -->
+
+<header class="header">
+    <div class="banner flex-space-around">
+        <marquee class="banner__title" behavior="" direction="">50% sale going on pls</marquee>
+
+    <div class="features flex-space-around">
+
+        <article class="features1 flex_center"> 
+        <i class="fa-solid fa-truck feature__icon"></i>
+        <h3>Shipping with 7 days</h3>
+        </article>
+
+        <article class="features1 flex_center"> 
+            <i class="fa-brands fa-rocketchat feature__icon"></i>
+            <h3>Support 24/7</h3>
+            </article>
+
+            <article class="features1 flex_center"> 
+                <i class="fa-regular fa-credit-card feature__icon"></i>
+                <h3>safe payment</h3>
+                </article> 
+
+
+    </div>    
+    </div>
+
+</header>
+
+
+<!-- Header_part_end -->
+
+<!-- Main_start_here -->
+
+<main class="flex_center">
+    <div class="sidebar">
+
+        <section class="catagories_section">
+            <h3 class="section_title">Catagories</h3>
+            <ul class="list">
+                <li class="list_item">
+                    <label for="phone">
+                        <input type="checkbox" name="phone" id="phone" value="phone">
+                        phone
+                     </label>
+                </li>
+
+                <li class="list_item">
+                    <label for="telivishion">
+                        <input type="checkbox" name="telivishion" id="telivishion" value="telivishion">
+                        Telivision
+                     </label>
+                </li>
+
+                <li class="list_item">
+                    <label for="laptop">
+                        <input type="checkbox" name="laptop" id="laptop" value="laptop">
+                        Laptop
+                     </label>
+                </li>
+
+                <li class="list_item">
+                    <label for="computer">
+                        <input type="checkbox" name="computer" id="computer" value="computer">
+                        Computer
+                     </label>
+                </li>
+
+                 <li class="list_item">
+                    <label for="keyboard">
+                        <input type="checkbox" name="keyboard" id="keyboard" value="keyboard">
+                        Keyboard
+                     </label>
+                </li>
+            </ul>
+        </section>
+        <section class="price_section">
+            <h3 class="section_title">Price_Range</h3>
+            <ul class="list">
+                <li class="list_item">
+                    <label for="price1">
+                        <input type="radio" name="price" id="price1" value="{0,20}">
+                        $0-20
+                     </label>
+                </li>
+
+                <li class="list_item">
+                    <label for="price2">
+                        <input type="radio" name="price" id="price2" value="{20,50}">
+                        $20-50
+                     </label>
+                </li>
+
+                <li class="list_item">
+                    <label for="price3">
+                        <input type="radio" name="price" id="price3" value="{50,100}">
+                        $50-100
+                     </label>
+                </li>
+
+                <li class="list_item">
+                    <label for="price4">
+                        <input type="radio" name="price" id="price4" value="{100,200}">
+                        $100-200
+                     </label>
+                </li>
+
+                <li class="list_item">
+                    <label for="price5">
+                        <input type="radio" name="price" id="price5" value="{300+}">
+                        $300+
+                     </label>
+                </li>
+            </ul>
+        </section>
+        <section class="shipping_section">
+            <h3 class="section_title">Price-options</h3>
+            <ul class="list">
+                <li class="list_item">
+                    <label for="free">
+                        <input type="radio" name="shiping" id="free" value="free">
+                        Free
+                     </label>
+                </li>
+
+                <li class="list_item">
+                    <label for="paid">
+                        <input type="radio" name="shiping" id="paid" value="paid">
+                        Paid
+                     </label>
+                </li>    
+            </ul>
+
+        </section>
+
+    </div>
+
+    <div class="main_content">
+<section class="actions flex-space-around">
+    <div class="ations__short">
+        <label for="short">Short by:</label>
+        <select name="short" id="short">
+            <option value="sold">Most sold first</option>
+            
+            <option value="rating">Most rated first</option>
+            
+            <option value="price">Mostcheapest first</option>
+            
+            <option value="arrival">News first</option>
+            
+            <option value="discount">Biggest discount first</option>
+        </select>
+    </div>
+
+    <div class="action__search">
+        <input type="text" placeholder="Search product">
+       <button class="btn">
+        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+       </button>
+    </div>
+
+</section>
+
+<!-- Product_section_start -->
+
+<section class="products">
+
+    <article class="product card">
+        <div class="badge">
+            <span>5 in stock</span>
+        <hr class="hr_design"/>
+        <span>3 sold</span>
+        </div>
+        <img class="product__img" src="images/headphone.jpg" alt="images1">
+        <div class="product_body">
+            <h3 class="product__name">sony v2 telivision</h3>
+            <p>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+                <span class="dot red"></span>
+            </p>
+            <p class="product_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, reiciendis....
+                <a href="product.html" class="learn_html">see more</a>
+            </p>
+            <h4 class="product__price">$450.78</h4>
+            <p class="product__rating">Rating: 4.5/5</p>
+            <button class="btn product__btn">Add to cart</button>
+        </div>
+    </article>
+
+    <article class="product card">
+        <div class="badge">
+            <span>Out of stock</span>
+        <hr class="hr_design"/>
+        <span>5 sold</span>
+        </div>
+        <img class="product__img" src="images/laptop.webp" alt="images1">
+        <div class="product_body">
+            
+            <h3 class="product__name">sony v2 telivision</h3>
+            <p>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+                <span class="dot red"></span>
+            </p>
+            <p class="product_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, reiciendis....
+                <a href="product.html" class="learn_html">see more</a>
+            </p>
+            <h4 class="product__price">$450.78</h4>
+            <p class="product__rating">Rating: 4.5/5</p>
+            <button class="btn product__btn">Add to cart</button>
+        </div>
+    </article>
+
+    <article class="product card">
+        <div class="badge">
+            <span>10 in stock</span>
+        <hr class="hr_design"/>
+        <span>3 sold</span>
+        </div>
+        <img class="product__img" src="images/watch.jpg" alt="images1">
+        <div class="product_body">
+            <h3 class="product__name">sony v2 telivision</h3>
+            <p>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+                <span class="dot red"></span>
+            </p>
+            <p class="product_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, reiciendis....
+                <a href="product.html" class="learn_html">see more</a>
+            </p>
+            <h4 class="product__price">$50.78</h4>
+            <p class="product__rating">Rating: 3.5/5</p>
+            <button class="btn product__btn">Add to cart</button>
+        </div>
+    </article>
+
+
+    <article class="product card">
+        <div class="badge">
+            <span>5 in stock</span>
+        <hr class="hr_design"/>
+        <span>3 sold</span>
+        </div>
+        <img class="product__img" src="images/headphone.jpg" alt="images1">
+        <div class="product_body">
+            <h3 class="product__name">sony v2 telivision</h3>
+            <p>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+                <span class="dot red"></span>
+            </p>
+            <p class="product_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, reiciendis....
+                <a href="product.html" class="learn_html">see more</a>
+            </p>
+            <h4 class="product__price">$450.78</h4>
+            <p class="product__rating">Rating: 4.5/5</p>
+            <button class="btn product__btn">Add to cart</button>
+        </div>
+    </article>
+
+    <article class="product card">
+        <div class="badge">
+            <span>Out of stock</span>
+        <hr class="hr_design"/>
+        <span>5 sold</span>
+        </div>
+        <img class="product__img" src="images/laptop.webp" alt="images1">
+        <div class="product_body">
+            <h3 class="product__name">sony v2 telivision</h3>
+            <p>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+                <span class="dot red"></span>
+            </p>
+            <p class="product_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, reiciendis....
+                <a href="product.html" class="learn_html">see more</a>
+            </p>
+            <h4 class="product__price">$450.78</h4>
+            <p class="product__rating">Rating: 4.5/5</p>
+            <button class="btn product__btn">Add to cart</button>
+        </div>
+    </article>
+
+    <article class="product card">
+        <div class="badge">
+            <span>10 in stock</span>
+        <hr class="hr_design"/>
+        <span>3 sold</span>
+        </div>
+        <img class="product__img" src="images/watch.jpg" alt="images1">
+        <div class="product_body">
+            <h3 class="product__name">sony v2 telivision</h3>
+            <p>
+                <span class="dot green"></span>
+                <span class="dot black"></span>
+                <span class="dot red"></span>
+            </p>
+            <p class="product_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, reiciendis....
+                <a href="product.html" class="learn_html">see more</a>
+            </p>
+            <h4 class="product__price">$50.78</h4>
+            <p class="product__rating">Rating: 3.5/5</p>
+            <button class="btn product__btn">Add to cart</button>
+        </div>
+    </article>
+</section>
+
+<div class="pagination">
+    <button class="btn pagination_btn">
+        <i class="fas fa-less-than"></i>
+    </button>
+    <button class="btn pagination_btn">2</button>
+    <button class="btn pagination_btn">3</button>
+    <button class="btn pagination_btn">4</button>
+    <button class="btn pagination_btn">5</button>
+    <button class="btn pagination_btn">6</button>
+    <button class="btn pagination_btn">7</button>
+    <button class="btn pagination_btn">8</button>
+    <button class="btn pagination_btn">9</button>
+    <button class="btn pagination_btn">10</button>
+    <button class="btn pagination_btn">11</button>
+    <button class="btn pagination_btn">50</button>
+    <button class="btn pagination_btn">...</button>
+
+    <button class="btn pagination_btn">
+        <i class="fas fa-greater-than"></i>
+    </button>
+
+</div>
+<!-- Product_section_End -->
+
+    </div>
+
+</main>
+
+
+<!-- Main_end_here -->
+
+
+<!-- Footer_Start -->
+
+<footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">Subscribe To Channel: </label>
+
+        <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder="Your Emai Adress">
+        <button class="btn btn-subscribe">Subscribe</button>
+    </div>
+
+    <div>
+        <p>&copy; Copyright 2023 All right reserved by &hearts;KHOKON</p>
+    </div>
+</footer>
+
+<!-- Footer_End -->
+
+
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

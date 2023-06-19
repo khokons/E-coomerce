@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is E-ommerces project this making by khokon">
+    <title>E_commerces</title>
+
+<!-- Font Awsome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Nav Part Start -->
+<nav>
+    <ul class="nav-upper flex-space-around">
+
+        <li class="nav__list">
+            <a href="index.html" class="nav__link">Home</a>
+        </li>
+
+        <li class="nav__list">
+            <a href="register.html" class="nav__link">Register</a>
+        </li>
+        <li class="nav__list">
+            <a href="login.html" class="nav__link">Login</a>
+        </li>
+        <li class="nav__list">
+            <a href="logout.html" class="nav__link">Logout</a>
+        </li>
+
+        <li class="nav__list">
+            <a href="contact.html" class="nav__link">Contact</a>
+        </li>
+
+        <li class="nav__list">
+            <a href="profile.html" class="nav__link">
+                <img src="images/profile.jpg" alt="profile_" class="profile_icone">
+            </a>
+        </li>
+    </ul>
+
+
+    <ul class="nav-lower flex-space-around">
+    
+    <li class="nav__list">
+     <a href="index.html" class="nav_brand nav__link">Khokon Express</a>
+    </li>
+    
+     <li class="nav__list">
+        <a href="card.html" class="nav__link"><span>
+<i class="fa-solid fa-cart-shopping"></i></span>Cart 2 Products_$150.5</a></li>
+</ul>
+</nav>
+
+<!-- Nav Part End -->
+<!-- Cart_Start_Here -->
+<main>
+<div class="cart flex_center">
+    <div class="cart__items">
+<div class="cart__items-heading card">
+    <h2>Shopping Cart[2 items]</h2>
+    <div class="cart__items-action">
+        <label for="select">
+            <input type="checkbox" id="select" name="select">
+            All items Selected
+        </label>
+        <button class="btn">
+            <i class="fas fa-trash-alt"></i>
+        </button>
+        <button class="btn">Shop more</button>
+    </div>
+</div>
+
+<div class="cart__item card flex-space-around">
+
+    <input type="checkbox" name="" id="">
+    <img src="images/headphone.jpg" alt="headphone" class="cart__item-img">
+
+    <div class="cart__item-description">
+        <h3 class="product__name">Sony v-4 Telivision_4</h3>
+        <h4 class="product__price">Price: $100-200</h4>
+        <p class="cart__item-shipping">Free shipping</p>
+    </div>
+
+    <div class="cart__item-action">
+        <button class="btn"> <i class="fas fa-trash-alt"></i></button>
+
+        <button class="btn"> <i class="fas fa-add"></i></button>
+          <span>3</span>
+        <button class="btn"> <i class="fas fa-minus"></i></button>
+    </div>
+
+
+</div>
+<div class="cart__item card flex-space-around">
+    <input type="checkbox" name="" id="">
+    <img src="images/laptop.webp" alt="laptop" class="cart__item-img">
+    <div class="cart__item-description">
+        <h3 class="product__name">HP Core i8</h3>
+        <h4 class="product__price">Price: $400-700</h4>
+        <p class="cart__item-shipping">Shipping Cost $5</p>
+    </div>
+    <div class="cart__item-action">
+        <button class="btn"> <i class="fas fa-trash-alt"></i></button>
+
+        <button class="btn"> <i class="fas fa-add"></i></button>
+          <span>1</span>
+        <button class="btn"> <i class="fas fa-minus"></i></button>
+    </div>
+</div>
+</div>
+
+    <div class="cart__payment">
+        <div class="cart__payment-summary card">
+            <h2>Payment Summary</h2>
+
+            <div>
+                <p>Subtotal:</p>
+                <p>$450-500</p>
+            </div>
+                <div>
+                <p>Shipping Cost:</p>
+                <p>$40-100</p>
+            </div>
+                <div>
+                <p>Total Cost:</p>
+                <p>$300-500</p>
+            </div>
+            <button class="btn cart__payment-btn">Pay Now</button>
+        </div>
+
+
+        <div class="cart__payment-method card">
+            <h2>Payment Methode</h2>
+            <div>
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-apple-pay"></i>
+            <i class="fa-brands fa-cc-paypal"></i>
+            <i class="fa-brands fa-cc-amazon-pay"></i>
+           <i class="fa-brands fa-cc-amex"></i>
+        </div>
+        </div>
+
+    </div>
+</div>
+
+</main>
+
+<!-- Cart_END_Here -->
+
+<!-- Footer_Start -->
+
+<footer class="footer flex-space-around">
+    <div class="flex-space-around">
+        <label for="subscribe">Subscribe To Channel: </label>
+
+        <input type="email" id="subscribe" name="subscribe" class="footer__input" placeholder="Your Emai Adress">
+        <button class="btn btn-subscribe">Subscribe</button>
+    </div>
+
+    <div>
+        <p>&copy; Copyright 2023 All right reserved by &hearts;KHOKON</p>
+    </div>
+</footer>
+
+<!-- Footer_End -->
+
+</body>
+</html>
